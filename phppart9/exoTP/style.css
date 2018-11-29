@@ -1,0 +1,51 @@
+body {
+    background-color: Black;
+    color: Green;
+    padding: 10px;
+}
+.day {
+    font-size: 2rem;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+.month {
+    margin-top: 12px;
+}
+.align {
+    align-content: center;
+}
+.relative {
+    position: relative;    
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    font-size: 1.3rem;
+    color: green;
+}
+table td.padding {
+    border: none;
+}
+table td .events {
+    position: relative;
+    width: 79px;
+    height: 0px;
+    margin: -39px 0px 0px;
+    padding: 0px;
+}
+table td .daytitle {
+    display: none;
+}
+table td:hover {
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+table td {
+    border: 1px solid #A3A3A3;
+    width: 80px;
+    height: 80px;
+}

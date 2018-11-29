@@ -1,0 +1,65 @@
+body {
+  background-color: Black;
+  color: Green;
+  padding: 10px;
+}
+.year {
+    color: #D90000;
+    font-size: 85px;
+}
+.months ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.clear {
+    clear: both;
+}
+.month {
+    margin-top: 12px;
+}
+.relative {
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    font-weight: normal;
+    color: #A8A8A8;
+}
+table td.padding {
+    border: none;
+}
+table td .events {
+    position: relative;
+    width: 79px;
+    height: 0px;
+    margin: -39px 0px 0px;
+    padding: 0px;
+}
+table td .daytitle {
+    display: none;
+}
+.months ul li a:hover, .months ul li a.active {
+    color: #D90000;
+}
+.months ul li a {
+    float: left;
+    margin: -1px;
+    padding: 0px 15px 0px 0px;
+    color: #888888;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table td:hover {
+    background: #DFDFDF;
+    cursor: pointer;
+}
+table td {
+    border: 1px solid #A3A3A3;
+    width: 80px;
+    height: 80px;
+}
